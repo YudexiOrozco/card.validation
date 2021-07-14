@@ -86,18 +86,19 @@ html, body {
 }
 
 .escribirNumero {
-  color: #f0d50b; 
+  
   height: 50px;
   width: 350px;
   padding: 0px;
-  font-size: 23px;
+  font-size: 40px;
   text-align: center;
-  border: 5px solid;
-  border-radius: 15px; 
+  letter-spacing: 4px;
+  border-inline-color: rgb(1, 182, 16);
+  /* border-radius: 15px;  */
   position: absolute;
   top:0;
   left:0;
-  border: 2px solid;
+  border: 3.5px solid;
   outline: none;
 }
 
@@ -125,6 +126,7 @@ html, body {
   z-index: 1;
 }
 
-.inputNumber {
-  font-size: 25px;
+.input[type=password] {
+  color:black;
+  font-size: px;
 }
