@@ -1,8 +1,6 @@
 //Contiene lógica
 
 const validator = {
-
-  
   isValid: function(creditCardNumber) {
     debugger;
     let arrayNumber = creditCardNumber.split('');
@@ -23,6 +21,7 @@ const validator = {
 //[0, 1, 2] indices/posiciones
 // x[2] = 5;
 
+//todas las ubicaciones impares son multiplicadas por 2
 function paresX2(numbers) {
   for (let i = 0; i < numbers.length; i++) { 
    if(i % 2 !== 0) {
@@ -47,6 +46,7 @@ function paresSuma(numbers) {
   return numbers;
 }
 
+//función de suma
 function sumaDigits(numbers) {
   let number = 0;
 
@@ -83,3 +83,4 @@ function numeral(numbers){
 
 // numbers[i] = (numbers[i] * 2).toString();
 export default validator;
+//exportando un recurso de un archivo a otro, legibilidad y modularización
